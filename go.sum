@@ -1,0 +1,4 @@
+github.com/steevebrush/iridium-go/iridiumWalletdRPC v0.0.1 h1:i1exWF1hMrWX17gqF2Wn86Epu7AZ7uBZRhBmdmsZpi8=
+github.com/steevebrush/iridium-go/iridiumWalletdRPC v0.0.1/go.mod h1:A3cSVRijbaQXLqqoANmwmU+GcXeEVfKdwC5IoihhAxM=
+github.com/steevebrush/iridium-go/iridiumdRPC v0.0.1 h1:ce0SBy5z2tODXLdpv/uF1TVt5LREmyfOms6devRAneA=
+github.com/steevebrush/iridium-go/iridiumdRPC v0.0.1/go.mod h1:nNrWgyEtmkt8XneIKTwz1G3fDxCrIUJhxVok0K1cL5k=
