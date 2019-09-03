@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2019.
+ * by Steve Brush, Iridium Developers
+ */
+
+// Iridium core RPC API tests
 package iridium_go
 
 import (

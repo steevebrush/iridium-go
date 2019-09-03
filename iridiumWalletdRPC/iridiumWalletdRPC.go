@@ -1,6 +1,9 @@
-// Iridium payments gateway JSON RPC API for golang
-// Copyright (c) 2019 Steve Brush, Iridium Developers
+/*
+ * Copyright (c) 2019.
+ * by Steve Brush, Iridium Developers
+ */
 
+// Iridium payments gateway JSON RPC API for golang
 package iridiumWalletdRPC
 
 // Version declaration module mame, version major, minor and patch

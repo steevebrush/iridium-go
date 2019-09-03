@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2019.
+ * by Steve Brush, Iridium Developers
+ */
+
+// Iridium payments gateway JSON RPC API for golang test
 package iridiumWalletdRPC
 
 import (
