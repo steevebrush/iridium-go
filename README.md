@@ -1,10 +1,13 @@
 # Iridium go RPC libraries
 Modules to be used in go to query core Iridium softwares
-Two parts are available : 
+
+Two libs are available : 
  * IridiumdRPC for the node daemon
  * IridiumWalletdRPC for the payment gateway daemon.
-
-## IridiumdRPC
+ 
+ Modules are versioned by SEMVER tags
+ 
+## IridiumdRPC v1.0.0
 
 GET methods :
  * GetHeight()
