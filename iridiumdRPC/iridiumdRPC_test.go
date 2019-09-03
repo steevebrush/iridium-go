@@ -19,7 +19,7 @@ const er = "\033[31m[ERROR] : \033[0m"
 
 // iridium node address for tests
 var node = Iridiumd{
-	address: "192.168.1.5",
+	address: "127.0.0.1",
 	port:    13007,
 }
 
