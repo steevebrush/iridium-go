@@ -25,8 +25,8 @@ func Version() (name string, major int, minor int, patch int) {
 
 // node json/rpc api address, port and minimum version needed
 type Iridiumd struct {
-	address string
-	port    int
+	Address string
+	Port    int
 }
 
 // Perform server request
@@ -77,7 +77,7 @@ func (node *Iridiumd) makeGetRequest(method string, params map[string]interface{
 	}
 
 	// construct request
-	req, err := http.NewRequest("GET", "http://"+node.address+":"+strconv.Itoa(node.port)+"/"+method, bytes.NewBuffer(jsonPayload))
+	req, err := http.NewRequest("GET", "http://"+node.Address+":"+strconv.Itoa(node.Port)+"/"+method, bytes.NewBuffer(jsonPayload))
 	if err != nil {
 		return nil, err
 	}
