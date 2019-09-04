@@ -116,7 +116,7 @@ func (node *Iridiumd) makePostRequest(method string, params map[string]interface
 	}
 
 	// construct request
-	req, err := http.NewRequest("POST", "http://"+node.address+":"+strconv.Itoa(node.port)+"/json_rpc", bytes.NewBuffer(jsonPayload))
+	req, err := http.NewRequest("POST", "http://"+node.Address+":"+strconv.Itoa(node.Port)+"/json_rpc", bytes.NewBuffer(jsonPayload))
 	if err != nil {
 		return nil, err
 	}
